@@ -673,9 +673,9 @@ input:-webkit-autofill:active {
 
 .hero-slide {
   position: absolute;
-  top: 0;
+  top: 90px;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   transform: translate(0, -100%);
   transition: all 0.3s;
 }

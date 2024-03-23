@@ -455,7 +455,7 @@ body {
 }
 
 .faq-2 .miscellaneous-2[aria-selected=true] * {
-  color: #EFEFE5;
+  color: #efefe5;
 }
 
 .faq-answer-2 {
@@ -503,7 +503,7 @@ body {
     margin: 0 auto;
     width: 0;
     height: 1px;
-    background: #EFEFE5;
+    background: #efefe5;
     transition: width 0.2s;
     content: "";
   }
@@ -746,12 +746,6 @@ input:-webkit-autofill:active {
     mask-image: linear-gradient(to top, transparent 0%, #0a090f 25%, #0a090f 100%);
   }
 }
-body:not(.loaded) .page-loader {
-  display: flex !important;
-  opacity: 1 !important;
-  border: 1px solid black;
-}
-
 /* path animations */
 /*[anim-trigger-hero],*/
 [anim-trigger] {

@@ -10791,13 +10791,13 @@ li {
 }
 
 .soliutions-image-track {
-  width: 50.2%;
-  height: 102%;
+  width: 70%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
   top: 0;
-  left: 17%;
+  left: -17%;
   right: 0;
 }
 
@@ -11134,7 +11134,7 @@ li {
 .webgl {
   z-index: 5;
   position: fixed;
-  top: 140px;
+  top: 60px;
   left: 0;
   right: 0;
   margin: auto;
@@ -11146,7 +11146,7 @@ li {
   width: 300px;
 }
 .webgl .w-embed {
-  width: 22%;
+  width: 70%;
 }
 
 .custom-slider-arrow.custom-slider-arrow--prev.custom-slider-arrow--top {
@@ -15324,8 +15324,12 @@ li {
   background-color: #0a090f;
   justify-content: center;
   align-items: center;
-  display: none;
   position: fixed;
+  display: flex;
+}
+.page-loader .loaderbot {
+  width: 60%;
+  margin: auto;
 }
 
 .loader-text {
